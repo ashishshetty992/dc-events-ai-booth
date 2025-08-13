@@ -1,0 +1,86 @@
+[
+  {
+    "event_name": "Smart City Expo 2025",
+    "date": "2025-09-02",
+    "location": "Jeddah",
+    "industry": "Finance",
+    "expected_footfall": 1988,
+    "top_companies": [
+      "MediCore17",
+      "FinSolve14",
+      "LearnPro19",
+      "BuildX12"
+    ],
+    "tier": "National"
+  },
+  {
+    "event_name": "HealthTech Expo 2025",
+    "date": "2025-08-11",
+    "location": "Dammam",
+    "industry": "Retail",
+    "expected_footfall": 3136,
+    "top_companies": [
+      "MediCore16",
+      "TechNova17",
+      "MediCore10",
+      "LearnPro13"
+    ],
+    "tier": "Niche"
+  },
+  {
+    "event_name": "RetailNow Expo 2025",
+    "date": "2025-09-17",
+    "location": "Jeddah",
+    "industry": "Construction",
+    "expected_footfall": 2996,
+    "top_companies": [
+      "AutoTrend15",
+      "MediCore16",
+      "FinSolve15",
+      "TechNova19"
+    ],
+    "tier": "Top100"
+  },
+  {
+    "event_name": "EduFuture Expo 2025",
+    "date": "2025-08-01",
+    "location": "Jeddah",
+    "industry": "Automotive",
+    "expected_footfall": 2087,
+    "top_companies": [
+      "BuildX16",
+      "MediCore15",
+      "LearnPro12",
+      "BuildX12"
+    ],
+    "tier": "Top100"
+  },
+  {
+    "event_name": "FinGrowth Expo 2025",
+    "date": "2025-07-19",
+    "location": "Dammam",
+    "industry": "Healthcare",
+    "expected_footfall": 4884,
+    "top_companies": [
+      "TechNova11",
+      "FinSolve19",
+      "TechNova18",
+      "AutoTrend10"
+    ],
+    "tier": "National"
+  },
+  {
+    "event_name": "AutoWorld Expo 2025",
+    "date": "2025-08-11",
+    "location": "Jeddah",
+    "industry": "Finance",
+    "expected_footfall": 3516,
+    "top_companies": [
+      "TechNova10",
+      "AutoTrend12",
+      "MediCore17",
+      "LearnPro11"
+    ],
+    "tier": "Niche"
+  }
+]

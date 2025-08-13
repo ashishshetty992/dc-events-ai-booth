@@ -1,0 +1,640 @@
+[
+  {
+    "company": "MediCore10",
+    "event_name": "HealthTech Expo 2025",
+    "date": "2024-05-04",
+    "roi_score": 0.81,
+    "satisfaction": 3,
+    "issues_flagged": []
+  },
+  {
+    "company": "FinSolve15",
+    "event_name": "Smart City Expo 2025",
+    "date": "2024-06-20",
+    "roi_score": 1.76,
+    "satisfaction": 1,
+    "issues_flagged": []
+  },
+  {
+    "company": "AutoTrend14",
+    "event_name": "EduFuture Expo 2025",
+    "date": "2024-08-19",
+    "roi_score": 2.07,
+    "satisfaction": 4,
+    "issues_flagged": []
+  },
+  {
+    "company": "LearnPro16",
+    "event_name": "FinGrowth Expo 2025",
+    "date": "2024-06-03",
+    "roi_score": 1.87,
+    "satisfaction": 3,
+    "issues_flagged": []
+  },
+  {
+    "company": "BuildX12",
+    "event_name": "Smart City Expo 2025",
+    "date": "2024-10-05",
+    "roi_score": 2.29,
+    "satisfaction": 1,
+    "issues_flagged": [
+      "missing banners"
+    ]
+  },
+  {
+    "company": "MediCore14",
+    "event_name": "FinGrowth Expo 2025",
+    "date": "2024-06-04",
+    "roi_score": 0.68,
+    "satisfaction": 2,
+    "issues_flagged": [
+      "missing banners"
+    ]
+  },
+  {
+    "company": "AutoTrend16",
+    "event_name": "EduFuture Expo 2025",
+    "date": "2024-03-18",
+    "roi_score": 1.23,
+    "satisfaction": 1,
+    "issues_flagged": []
+  },
+  {
+    "company": "TechNova18",
+    "event_name": "AutoWorld Expo 2025",
+    "date": "2024-12-14",
+    "roi_score": 0.88,
+    "satisfaction": 4,
+    "issues_flagged": []
+  },
+  {
+    "company": "LearnPro14",
+    "event_name": "FinGrowth Expo 2025",
+    "date": "2024-09-27",
+    "roi_score": 2.93,
+    "satisfaction": 1,
+    "issues_flagged": [
+      "incomplete payment"
+    ]
+  },
+  {
+    "company": "MediCore15",
+    "event_name": "HealthTech Expo 2025",
+    "date": "2024-08-17",
+    "roi_score": 2.92,
+    "satisfaction": 3,
+    "issues_flagged": [
+      "incomplete payment"
+    ]
+  },
+  {
+    "company": "BuildX14",
+    "event_name": "AutoWorld Expo 2025",
+    "date": "2024-10-24",
+    "roi_score": 0.52,
+    "satisfaction": 1,
+    "issues_flagged": [
+      "missing banners"
+    ]
+  },
+  {
+    "company": "LearnPro19",
+    "event_name": "Smart City Expo 2025",
+    "date": "2024-03-18",
+    "roi_score": 2.46,
+    "satisfaction": 3,
+    "issues_flagged": []
+  },
+  {
+    "company": "TechNova12",
+    "event_name": "FinGrowth Expo 2025",
+    "date": "2024-11-27",
+    "roi_score": 1.41,
+    "satisfaction": 5,
+    "issues_flagged": []
+  },
+  {
+    "company": "MediCore15",
+    "event_name": "EduFuture Expo 2025",
+    "date": "2024-08-06",
+    "roi_score": 2.48,
+    "satisfaction": 4,
+    "issues_flagged": [
+      "late setup"
+    ]
+  },
+  {
+    "company": "BuildX11",
+    "event_name": "FinGrowth Expo 2025",
+    "date": "2024-09-02",
+    "roi_score": 2.99,
+    "satisfaction": 4,
+    "issues_flagged": [
+      "incomplete payment"
+    ]
+  },
+  {
+    "company": "FinSolve18",
+    "event_name": "Smart City Expo 2025",
+    "date": "2024-05-10",
+    "roi_score": 2.34,
+    "satisfaction": 1,
+    "issues_flagged": []
+  },
+  {
+    "company": "AutoTrend18",
+    "event_name": "HealthTech Expo 2025",
+    "date": "2024-04-25",
+    "roi_score": 2.59,
+    "satisfaction": 2,
+    "issues_flagged": [
+      "missing banners"
+    ]
+  },
+  {
+    "company": "BuildX19",
+    "event_name": "FinGrowth Expo 2025",
+    "date": "2025-02-02",
+    "roi_score": 1.89,
+    "satisfaction": 2,
+    "issues_flagged": [
+      "missing banners"
+    ]
+  },
+  {
+    "company": "MediCore14",
+    "event_name": "FinGrowth Expo 2025",
+    "date": "2024-10-27",
+    "roi_score": 1.13,
+    "satisfaction": 5,
+    "issues_flagged": []
+  },
+  {
+    "company": "AutoTrend12",
+    "event_name": "AutoWorld Expo 2025",
+    "date": "2024-04-07",
+    "roi_score": 2.42,
+    "satisfaction": 3,
+    "issues_flagged": []
+  },
+  {
+    "company": "AutoTrend14",
+    "event_name": "Smart City Expo 2025",
+    "date": "2024-08-25",
+    "roi_score": 0.51,
+    "satisfaction": 4,
+    "issues_flagged": []
+  },
+  {
+    "company": "LearnPro17",
+    "event_name": "FinGrowth Expo 2025",
+    "date": "2025-02-25",
+    "roi_score": 1.51,
+    "satisfaction": 2,
+    "issues_flagged": []
+  },
+  {
+    "company": "TechNova16",
+    "event_name": "AutoWorld Expo 2025",
+    "date": "2025-01-23",
+    "roi_score": 1.93,
+    "satisfaction": 1,
+    "issues_flagged": []
+  },
+  {
+    "company": "BuildX14",
+    "event_name": "AutoWorld Expo 2025",
+    "date": "2024-10-14",
+    "roi_score": 2.8,
+    "satisfaction": 1,
+    "issues_flagged": []
+  },
+  {
+    "company": "TechNova14",
+    "event_name": "AutoWorld Expo 2025",
+    "date": "2024-07-23",
+    "roi_score": 1.68,
+    "satisfaction": 2,
+    "issues_flagged": [
+      "late setup"
+    ]
+  },
+  {
+    "company": "FinSolve13",
+    "event_name": "Smart City Expo 2025",
+    "date": "2024-12-20",
+    "roi_score": 1.62,
+    "satisfaction": 4,
+    "issues_flagged": [
+      "missing banners"
+    ]
+  },
+  {
+    "company": "AutoTrend13",
+    "event_name": "EduFuture Expo 2025",
+    "date": "2024-05-12",
+    "roi_score": 0.73,
+    "satisfaction": 2,
+    "issues_flagged": [
+      "late setup"
+    ]
+  },
+  {
+    "company": "MediCore18",
+    "event_name": "EduFuture Expo 2025",
+    "date": "2024-10-17",
+    "roi_score": 2.2,
+    "satisfaction": 4,
+    "issues_flagged": []
+  },
+  {
+    "company": "BuildX19",
+    "event_name": "HealthTech Expo 2025",
+    "date": "2024-12-08",
+    "roi_score": 2.55,
+    "satisfaction": 1,
+    "issues_flagged": [
+      "late setup"
+    ]
+  },
+  {
+    "company": "TechNova13",
+    "event_name": "Smart City Expo 2025",
+    "date": "2024-02-19",
+    "roi_score": 1.06,
+    "satisfaction": 1,
+    "issues_flagged": [
+      "incomplete payment"
+    ]
+  },
+  {
+    "company": "TechNova11",
+    "event_name": "RetailNow Expo 2025",
+    "date": "2024-07-27",
+    "roi_score": 1.87,
+    "satisfaction": 3,
+    "issues_flagged": [
+      "late setup"
+    ]
+  },
+  {
+    "company": "AutoTrend19",
+    "event_name": "EduFuture Expo 2025",
+    "date": "2024-02-28",
+    "roi_score": 1.04,
+    "satisfaction": 3,
+    "issues_flagged": [
+      "missing banners"
+    ]
+  },
+  {
+    "company": "BuildX12",
+    "event_name": "FinGrowth Expo 2025",
+    "date": "2024-11-30",
+    "roi_score": 1.08,
+    "satisfaction": 1,
+    "issues_flagged": [
+      "late setup"
+    ]
+  },
+  {
+    "company": "MediCore16",
+    "event_name": "HealthTech Expo 2025",
+    "date": "2024-05-12",
+    "roi_score": 2.26,
+    "satisfaction": 2,
+    "issues_flagged": [
+      "late setup"
+    ]
+  },
+  {
+    "company": "AutoTrend15",
+    "event_name": "HealthTech Expo 2025",
+    "date": "2024-05-20",
+    "roi_score": 1.57,
+    "satisfaction": 3,
+    "issues_flagged": []
+  },
+  {
+    "company": "LearnPro10",
+    "event_name": "HealthTech Expo 2025",
+    "date": "2024-06-14",
+    "roi_score": 2.83,
+    "satisfaction": 1,
+    "issues_flagged": [
+      "incomplete payment"
+    ]
+  },
+  {
+    "company": "AutoTrend15",
+    "event_name": "EduFuture Expo 2025",
+    "date": "2025-03-18",
+    "roi_score": 2.4,
+    "satisfaction": 5,
+    "issues_flagged": [
+      "late setup"
+    ]
+  },
+  {
+    "company": "LearnPro18",
+    "event_name": "AutoWorld Expo 2025",
+    "date": "2024-05-24",
+    "roi_score": 2.37,
+    "satisfaction": 1,
+    "issues_flagged": [
+      "missing banners"
+    ]
+  },
+  {
+    "company": "BuildX11",
+    "event_name": "HealthTech Expo 2025",
+    "date": "2024-03-16",
+    "roi_score": 2.72,
+    "satisfaction": 2,
+    "issues_flagged": []
+  },
+  {
+    "company": "BuildX12",
+    "event_name": "FinGrowth Expo 2025",
+    "date": "2024-04-26",
+    "roi_score": 2.52,
+    "satisfaction": 3,
+    "issues_flagged": [
+      "late setup"
+    ]
+  },
+  {
+    "company": "LearnPro14",
+    "event_name": "FinGrowth Expo 2025",
+    "date": "2024-08-28",
+    "roi_score": 2.01,
+    "satisfaction": 2,
+    "issues_flagged": [
+      "late setup"
+    ]
+  },
+  {
+    "company": "AutoTrend13",
+    "event_name": "RetailNow Expo 2025",
+    "date": "2025-01-20",
+    "roi_score": 0.62,
+    "satisfaction": 5,
+    "issues_flagged": []
+  },
+  {
+    "company": "MediCore13",
+    "event_name": "FinGrowth Expo 2025",
+    "date": "2024-05-28",
+    "roi_score": 2.35,
+    "satisfaction": 1,
+    "issues_flagged": []
+  },
+  {
+    "company": "FinSolve11",
+    "event_name": "RetailNow Expo 2025",
+    "date": "2024-07-23",
+    "roi_score": 1.38,
+    "satisfaction": 4,
+    "issues_flagged": [
+      "missing banners"
+    ]
+  },
+  {
+    "company": "LearnPro19",
+    "event_name": "HealthTech Expo 2025",
+    "date": "2024-09-12",
+    "roi_score": 1.78,
+    "satisfaction": 4,
+    "issues_flagged": []
+  },
+  {
+    "company": "LearnPro16",
+    "event_name": "HealthTech Expo 2025",
+    "date": "2024-11-03",
+    "roi_score": 2.58,
+    "satisfaction": 3,
+    "issues_flagged": [
+      "late setup"
+    ]
+  },
+  {
+    "company": "MediCore13",
+    "event_name": "HealthTech Expo 2025",
+    "date": "2024-08-22",
+    "roi_score": 1.48,
+    "satisfaction": 1,
+    "issues_flagged": [
+      "missing banners"
+    ]
+  },
+  {
+    "company": "LearnPro10",
+    "event_name": "AutoWorld Expo 2025",
+    "date": "2024-09-13",
+    "roi_score": 2.08,
+    "satisfaction": 2,
+    "issues_flagged": []
+  },
+  {
+    "company": "BuildX15",
+    "event_name": "FinGrowth Expo 2025",
+    "date": "2024-12-20",
+    "roi_score": 1.67,
+    "satisfaction": 1,
+    "issues_flagged": []
+  },
+  {
+    "company": "MediCore15",
+    "event_name": "Smart City Expo 2025",
+    "date": "2024-02-20",
+    "roi_score": 0.67,
+    "satisfaction": 4,
+    "issues_flagged": [
+      "incomplete payment"
+    ]
+  },
+  {
+    "company": "AutoTrend12",
+    "event_name": "FinGrowth Expo 2025",
+    "date": "2024-11-08",
+    "roi_score": 2.44,
+    "satisfaction": 2,
+    "issues_flagged": [
+      "late setup"
+    ]
+  },
+  {
+    "company": "LearnPro16",
+    "event_name": "RetailNow Expo 2025",
+    "date": "2025-02-13",
+    "roi_score": 0.75,
+    "satisfaction": 1,
+    "issues_flagged": [
+      "late setup"
+    ]
+  },
+  {
+    "company": "TechNova17",
+    "event_name": "FinGrowth Expo 2025",
+    "date": "2024-10-04",
+    "roi_score": 1.67,
+    "satisfaction": 4,
+    "issues_flagged": [
+      "incomplete payment"
+    ]
+  },
+  {
+    "company": "LearnPro14",
+    "event_name": "RetailNow Expo 2025",
+    "date": "2024-11-27",
+    "roi_score": 1.39,
+    "satisfaction": 1,
+    "issues_flagged": []
+  },
+  {
+    "company": "FinSolve11",
+    "event_name": "FinGrowth Expo 2025",
+    "date": "2024-07-17",
+    "roi_score": 2.22,
+    "satisfaction": 2,
+    "issues_flagged": [
+      "missing banners"
+    ]
+  },
+  {
+    "company": "LearnPro13",
+    "event_name": "HealthTech Expo 2025",
+    "date": "2024-06-15",
+    "roi_score": 0.76,
+    "satisfaction": 5,
+    "issues_flagged": []
+  },
+  {
+    "company": "AutoTrend17",
+    "event_name": "RetailNow Expo 2025",
+    "date": "2024-03-01",
+    "roi_score": 2.71,
+    "satisfaction": 3,
+    "issues_flagged": [
+      "missing banners"
+    ]
+  },
+  {
+    "company": "MediCore12",
+    "event_name": "AutoWorld Expo 2025",
+    "date": "2024-07-19",
+    "roi_score": 2.3,
+    "satisfaction": 5,
+    "issues_flagged": [
+      "late setup"
+    ]
+  },
+  {
+    "company": "FinSolve10",
+    "event_name": "Smart City Expo 2025",
+    "date": "2025-01-19",
+    "roi_score": 0.82,
+    "satisfaction": 5,
+    "issues_flagged": [
+      "late setup"
+    ]
+  },
+  {
+    "company": "MediCore17",
+    "event_name": "RetailNow Expo 2025",
+    "date": "2025-02-10",
+    "roi_score": 0.88,
+    "satisfaction": 1,
+    "issues_flagged": []
+  },
+  {
+    "company": "BuildX10",
+    "event_name": "AutoWorld Expo 2025",
+    "date": "2024-11-29",
+    "roi_score": 2.45,
+    "satisfaction": 3,
+    "issues_flagged": [
+      "incomplete payment"
+    ]
+  },
+  {
+    "company": "FinSolve16",
+    "event_name": "RetailNow Expo 2025",
+    "date": "2025-03-16",
+    "roi_score": 2.05,
+    "satisfaction": 3,
+    "issues_flagged": []
+  },
+  {
+    "company": "AutoTrend17",
+    "event_name": "Smart City Expo 2025",
+    "date": "2024-02-24",
+    "roi_score": 1.96,
+    "satisfaction": 3,
+    "issues_flagged": []
+  },
+  {
+    "company": "LearnPro14",
+    "event_name": "AutoWorld Expo 2025",
+    "date": "2025-01-22",
+    "roi_score": 1.62,
+    "satisfaction": 2,
+    "issues_flagged": []
+  },
+  {
+    "company": "AutoTrend11",
+    "event_name": "RetailNow Expo 2025",
+    "date": "2025-02-14",
+    "roi_score": 1.98,
+    "satisfaction": 2,
+    "issues_flagged": []
+  },
+  {
+    "company": "AutoTrend10",
+    "event_name": "FinGrowth Expo 2025",
+    "date": "2024-11-26",
+    "roi_score": 0.7,
+    "satisfaction": 1,
+    "issues_flagged": [
+      "late setup"
+    ]
+  },
+  {
+    "company": "TechNova11",
+    "event_name": "RetailNow Expo 2025",
+    "date": "2025-01-05",
+    "roi_score": 1.51,
+    "satisfaction": 1,
+    "issues_flagged": []
+  },
+  {
+    "company": "LearnPro12",
+    "event_name": "EduFuture Expo 2025",
+    "date": "2024-10-13",
+    "roi_score": 1.43,
+    "satisfaction": 3,
+    "issues_flagged": [
+      "late setup"
+    ]
+  },
+  {
+    "company": "LearnPro13",
+    "event_name": "Smart City Expo 2025",
+    "date": "2024-04-22",
+    "roi_score": 2.55,
+    "satisfaction": 5,
+    "issues_flagged": [
+      "missing banners"
+    ]
+  },
+  {
+    "company": "FinSolve18",
+    "event_name": "RetailNow Expo 2025",
+    "date": "2024-05-08",
+    "roi_score": 1.99,
+    "satisfaction": 3,
+    "issues_flagged": [
+      "missing banners"
+    ]
+  }
+]

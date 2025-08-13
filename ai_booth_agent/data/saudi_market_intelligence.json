@@ -1,0 +1,162 @@
+{
+  "economic_indicators": {
+    "gdp_growth_rate": 8.7,
+    "non_oil_gdp_growth": 5.4,
+    "inflation_rate": 2.7,
+    "unemployment_rate": 7.4,
+    "foreign_investment_inflow_usd": 19200000000,
+    "vision_2030_progress": 0.68,
+    "ease_of_business_rank": 62,
+    "digital_competitiveness_rank": 39,
+    "innovation_index": 66,
+    "startup_ecosystem_rank": 28
+  },
+  "industry_growth_forecasts": {
+    "IT & Technology": {
+      "growth_rate_2024": 12.8,
+      "growth_rate_2025": 15.2,
+      "market_size_usd": 24500000000,
+      "key_drivers": ["NEOM development", "Digital transformation", "AI adoption", "5G rollout"],
+      "government_spending_usd": 8900000000,
+      "private_investment_usd": 15600000000,
+      "talent_gap": 0.34,
+      "regulatory_support": 0.89
+    },
+    "Energy": {
+      "growth_rate_2024": 18.5,
+      "growth_rate_2025": 22.1,
+      "market_size_usd": 89400000000,
+      "key_drivers": ["Renewable energy transition", "Green hydrogen", "NEOM projects", "Circular carbon economy"],
+      "government_spending_usd": 45200000000,
+      "private_investment_usd": 44200000000,
+      "talent_gap": 0.28,
+      "regulatory_support": 0.94
+    },
+    "Healthcare": {
+      "growth_rate_2024": 9.7,
+      "growth_rate_2025": 11.3,
+      "market_size_usd": 32100000000,
+      "key_drivers": ["Population growth", "Medical tourism", "Digital health", "Preventive care"],
+      "government_spending_usd": 18700000000,
+      "private_investment_usd": 13400000000,
+      "talent_gap": 0.41,
+      "regulatory_support": 0.85
+    },
+    "Manufacturing": {
+      "growth_rate_2024": 7.2,
+      "growth_rate_2025": 8.8,
+      "market_size_usd": 67800000000,
+      "key_drivers": ["Localization initiatives", "Export growth", "Industry 4.0", "Petrochemicals expansion"],
+      "government_spending_usd": 12400000000,
+      "private_investment_usd": 55400000000,
+      "talent_gap": 0.29,
+      "regulatory_support": 0.82
+    },
+    "Finance & Banking": {
+      "growth_rate_2024": 6.8,
+      "growth_rate_2025": 7.9,
+      "market_size_usd": 45600000000,
+      "key_drivers": ["Digital banking", "Fintech adoption", "SME lending", "Islamic finance"],
+      "government_spending_usd": 2100000000,
+      "private_investment_usd": 43500000000,
+      "talent_gap": 0.22,
+      "regulatory_support": 0.91
+    },
+    "Real Estate": {
+      "growth_rate_2024": 11.4,
+      "growth_rate_2025": 13.7,
+      "market_size_usd": 78900000000,
+      "key_drivers": ["Giga projects", "Tourism development", "Foreign ownership", "Smart cities"],
+      "government_spending_usd": 34500000000,
+      "private_investment_usd": 44400000000,
+      "talent_gap": 0.31,
+      "regulatory_support": 0.87
+    },
+    "Tourism": {
+      "growth_rate_2024": 14.6,
+      "growth_rate_2025": 18.2,
+      "market_size_usd": 25800000000,
+      "key_drivers": ["Religious tourism", "Entertainment projects", "Visa liberalization", "Cultural heritage"],
+      "government_spending_usd": 14200000000,
+      "private_investment_usd": 11600000000,
+      "talent_gap": 0.48,
+      "regulatory_support": 0.83
+    },
+    "Education": {
+      "growth_rate_2024": 8.9,
+      "growth_rate_2025": 10.4,
+      "market_size_usd": 19700000000,
+      "key_drivers": ["Skills development", "International partnerships", "Online learning", "Research initiatives"],
+      "government_spending_usd": 15200000000,
+      "private_investment_usd": 4500000000,
+      "talent_gap": 0.35,
+      "regulatory_support": 0.79
+    }
+  },
+  "regional_insights": {
+    "Riyadh": {
+      "population": 7200000,
+      "gdp_contribution": 0.24,
+      "business_density": 0.87,
+      "innovation_hubs": 8,
+      "infrastructure_score": 0.91,
+      "connectivity_index": 0.89,
+      "event_hosting_capacity": 0.95,
+      "government_procurement_share": 0.42
+    },
+    "Jeddah": {
+      "population": 4600000,
+      "gdp_contribution": 0.18,
+      "business_density": 0.79,
+      "innovation_hubs": 5,
+      "infrastructure_score": 0.84,
+      "connectivity_index": 0.86,
+      "event_hosting_capacity": 0.87,
+      "government_procurement_share": 0.21
+    },
+    "Dammam": {
+      "population": 1800000,
+      "gdp_contribution": 0.31,
+      "business_density": 0.92,
+      "innovation_hubs": 4,
+      "infrastructure_score": 0.88,
+      "connectivity_index": 0.83,
+      "event_hosting_capacity": 0.78,
+      "government_procurement_share": 0.28
+    },
+    "NEOM": {
+      "population": 150000,
+      "gdp_contribution": 0.08,
+      "business_density": 0.95,
+      "innovation_hubs": 12,
+      "infrastructure_score": 0.96,
+      "connectivity_index": 0.98,
+      "event_hosting_capacity": 0.82,
+      "government_procurement_share": 0.67
+    }
+  },
+  "regulatory_environment": {
+    "foreign_ownership_allowed": true,
+    "tax_rate": 0.20,
+    "vat_rate": 0.15,
+    "labor_law_flexibility": 0.73,
+    "intellectual_property_protection": 0.81,
+    "contract_enforcement": 0.76,
+    "dispute_resolution_efficiency": 0.69,
+    "environmental_compliance": 0.84,
+    "data_protection_requirements": 0.88,
+    "anti_corruption_index": 0.67
+  },
+  "vision_2030_priorities": {
+    "economic_diversification": 0.71,
+    "private_sector_development": 0.68,
+    "digital_transformation": 0.79,
+    "renewable_energy": 0.84,
+    "tourism_development": 0.62,
+    "manufacturing_localization": 0.74,
+    "sme_support": 0.66,
+    "women_participation": 0.81,
+    "youth_employment": 0.58,
+    "innovation_ecosystem": 0.72
+  }
+}

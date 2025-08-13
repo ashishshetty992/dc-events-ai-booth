@@ -1,0 +1,93 @@
+[
+  {
+    "industry": "IT",
+    "avg_booth_size": 29,
+    "avg_budget": 110852,
+    "conversion_ceiling": 0.37,
+    "avg_footfall_global": 2582,
+    "top_countries": [
+      "Germany",
+      "USA",
+      "UK"
+    ],
+    "growth_score": 0.72
+  },
+  {
+    "industry": "Healthcare",
+    "avg_booth_size": 29,
+    "avg_budget": 183432,
+    "conversion_ceiling": 0.41,
+    "avg_footfall_global": 2943,
+    "top_countries": [
+      "Germany",
+      "USA",
+      "India"
+    ],
+    "growth_score": 0.89
+  },
+  {
+    "industry": "Retail",
+    "avg_booth_size": 21,
+    "avg_budget": 119888,
+    "conversion_ceiling": 0.39,
+    "avg_footfall_global": 4097,
+    "top_countries": [
+      "UAE",
+      "China",
+      "Germany"
+    ],
+    "growth_score": 0.56
+  },
+  {
+    "industry": "Construction",
+    "avg_booth_size": 25,
+    "avg_budget": 197463,
+    "conversion_ceiling": 0.34,
+    "avg_footfall_global": 3020,
+    "top_countries": [
+      "India",
+      "UK",
+      "China"
+    ],
+    "growth_score": 0.34
+  },
+  {
+    "industry": "Education",
+    "avg_booth_size": 21,
+    "avg_budget": 124870,
+    "conversion_ceiling": 0.36,
+    "avg_footfall_global": 2132,
+    "top_countries": [
+      "China",
+      "Germany",
+      "USA"
+    ],
+    "growth_score": 0.66
+  },
+  {
+    "industry": "Finance",
+    "avg_booth_size": 22,
+    "avg_budget": 245782,
+    "conversion_ceiling": 0.55,
+    "avg_footfall_global": 2161,
+    "top_countries": [
+      "China",
+      "Germany",
+      "USA"
+    ],
+    "growth_score": 0.72
+  },
+  {
+    "industry": "Automotive",
+    "avg_booth_size": 22,
+    "avg_budget": 220805,
+    "conversion_ceiling": 0.39,
+    "avg_footfall_global": 4765,
+    "top_countries": [
+      "UK",
+      "Germany",
+      "UAE"
+    ],
+    "growth_score": 0.44
+  }
+]

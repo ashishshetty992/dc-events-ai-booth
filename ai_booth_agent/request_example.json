@@ -1,0 +1,68 @@
+{
+  "company_name": "TechNova345",
+  "booth_size_sqm": 30,
+  "budget_inr": 150000,
+  "event_name": "Smart City Expo 2025",
+  "event_date": "2025-08-20",
+  "industry": "IT",
+  "location": "Riyadh",
+  "past_events": ["TechExpo 2024", "AICon 2023"]
+}
+
+{
+  "company_name": "ShopEasy247",
+  "booth_size_sqm": 24,
+  "budget_inr": 120000,
+  "event_name": "RetailNow Expo 2025",
+  "event_date": "2025-09-10",
+  "industry": "Retail",
+  "location": "Jeddah",
+  "past_events": ["RetailTech 2023"]
+}
+
+{
+  "company_name": "EduRise Ltd",
+  "booth_size_sqm": 36,
+  "budget_inr": 180000,
+  "event_name": "EduFuture Expo 2025",
+  "event_date": "2025-08-20",
+  "industry": "Education",
+  "location": "Riyadh",
+  "past_events": ["EduFuture Expo 2024", "LearnTech Summit 2023"]
+}
+
+{
+  "company_name": "AutoSmart AI",
+  "booth_size_sqm": 18,
+  "budget_inr": 95000,
+  "event_name": "AutoWorld Expo 2025",
+  "event_date": "2025-10-05",
+  "industry": "Automotive",
+  "location": "Dammam",
+  "past_events": []
+}
+
+=====
+
+{
+    "company_name": "TechNova Pro",
+    "booth_size_sqm": 36,
+    "budget_inr": 210000,
+    "event_name": "FinGrowth Expo 2025",
+    "event_date": "2025-10-12",
+    "industry": "IT",
+    "location": "Jeddah",
+    "past_events": ["AICon 2023", "TechExpo 2024"]
+  }
+
+
+  {
+    "company_name": "EduRise Ltd",
+    "booth_size_sqm": 30,
+    "budget_inr": 150000,
+    "event_name": "EduFuture Expo 2025",
+    "event_date": "2025-09-25",
+    "industry": "Education",
+    "location": "Jeddah",
+    "past_events": ["EduFuture Expo 2024", "LearnTech Summit 2023"]
+  }

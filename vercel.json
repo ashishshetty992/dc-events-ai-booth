@@ -1,0 +1,34 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "booth-approval-ai-hub/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "booth-approval-ai-hub/dist"
+      }
+    },
+    {
+      "src": "api/*.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/index.py"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/booth-approval-ai-hub/dist/$1"
+    }
+  ],
+  "functions": {
+    "api/*.py": {
+      "runtime": "python3.9"
+    }
+  },
+  "buildCommand": "cd booth-approval-ai-hub && npm run build",
+  "installCommand": "cd booth-approval-ai-hub && npm install",
+  "outputDirectory": "booth-approval-ai-hub/dist"
+}

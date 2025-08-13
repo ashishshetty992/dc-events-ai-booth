@@ -1,0 +1,168 @@
+{
+  "investment_requirements": {
+    "minimum_capital_foreign": {
+      "IT & Technology": 500000,
+      "Manufacturing": 2000000,
+      "Healthcare": 1000000,
+      "Finance & Banking": 5000000,
+      "Energy": 10000000,
+      "Real Estate": 3000000,
+      "Education": 750000,
+      "Tourism": 1500000,
+      "Retail": 300000,
+      "Automotive": 2500000
+    },
+    "local_partner_required": {
+      "IT & Technology": false,
+      "Manufacturing": false,
+      "Healthcare": true,
+      "Finance & Banking": true,
+      "Energy": false,
+      "Real Estate": true,
+      "Education": true,
+      "Tourism": false,
+      "Retail": false,
+      "Automotive": false
+    },
+    "government_approval_required": {
+      "IT & Technology": false,
+      "Manufacturing": true,
+      "Healthcare": true,
+      "Finance & Banking": true,
+      "Energy": true,
+      "Real Estate": true,
+      "Education": true,
+      "Tourism": false,
+      "Retail": false,
+      "Automotive": true
+    }
+  },
+  "compliance_requirements": {
+    "saudization_quotas": {
+      "IT & Technology": 0.25,
+      "Manufacturing": 0.30,
+      "Healthcare": 0.40,
+      "Finance & Banking": 0.75,
+      "Energy": 0.35,
+      "Real Estate": 0.50,
+      "Education": 0.80,
+      "Tourism": 0.35,
+      "Retail": 0.60,
+      "Automotive": 0.30
+    },
+    "environmental_compliance": {
+      "IT & Technology": 0.70,
+      "Manufacturing": 0.95,
+      "Healthcare": 0.85,
+      "Finance & Banking": 0.60,
+      "Energy": 0.98,
+      "Real Estate": 0.88,
+      "Education": 0.65,
+      "Tourism": 0.82,
+      "Retail": 0.55,
+      "Automotive": 0.92
+    },
+    "data_localization": {
+      "IT & Technology": 0.80,
+      "Manufacturing": 0.40,
+      "Healthcare": 0.95,
+      "Finance & Banking": 0.99,
+      "Energy": 0.70,
+      "Real Estate": 0.45,
+      "Education": 0.85,
+      "Tourism": 0.50,
+      "Retail": 0.60,
+      "Automotive": 0.55
+    }
+  },
+  "incentive_programs": {
+    "vision_2030_sectors": {
+      "eligible_industries": ["IT & Technology", "Energy", "Tourism", "Manufacturing", "Healthcare"],
+      "tax_exemption_years": 10,
+      "land_allocation_discount": 0.50,
+      "fast_track_licensing": true,
+      "visa_facilitation": true
+    },
+    "neom_special_zone": {
+      "tax_rate": 0.05,
+      "regulatory_sandbox": true,
+      "100_percent_foreign_ownership": true,
+      "expedited_approvals": true,
+      "customs_exemptions": true
+    },
+    "sme_support": {
+      "loan_guarantee_program": 0.80,
+      "procurement_preference": 0.30,
+      "reduced_fees": 0.50,
+      "business_incubation": true,
+      "export_support": true
+    }
+  },
+  "event_specific_regulations": {
+    "booth_construction": {
+      "fire_safety_compliance": true,
+      "accessibility_requirements": true,
+      "height_restrictions_meters": 6,
+      "electrical_standards": "SASO",
+      "materials_approval_required": true
+    },
+    "staffing_requirements": {
+      "saudi_staff_minimum_pct": 0.30,
+      "work_permit_processing_days": 14,
+      "visitor_visa_support": true,
+      "business_visa_facilitation": true
+    },
+    "customs_procedures": {
+      "temporary_import_allowed": true,
+      "duty_exemption_duration_days": 90,
+      "carnet_acceptance": true,
+      "fast_track_clearance": true,
+      "documentation_requirements": ["Commercial invoice", "Packing list", "Bill of lading", "Certificate of origin"]
+    }
+  },
+  "sector_specific_rules": {
+    "healthcare": {
+      "medical_device_registration": true,
+      "saudi_fda_approval": true,
+      "clinical_trial_permits": true,
+      "pharmaceutical_licensing": true
+    },
+    "finance": {
+      "sama_authorization": true,
+      "sharia_compliance": 0.65,
+      "capital_adequacy_ratio": 0.125,
+      "anti_money_laundering": true
+    },
+    "energy": {
+      "environmental_impact_assessment": true,
+      "renewable_energy_certificates": true,
+      "safety_compliance": true,
+      "grid_connection_approval": true
+    },
+    "technology": {
+      "cybersecurity_compliance": true,
+      "data_protection_certification": true,
+      "telecommunications_licensing": false,
+      "software_localization": 0.40
+    }
+  },
+  "penalties_and_violations": {
+    "non_compliance_fines": {
+      "minor_violation": 50000,
+      "major_violation": 500000,
+      "critical_violation": 2000000
+    },
+    "license_suspension_triggers": [
+      "Repeated safety violations",
+      "Environmental non-compliance",
+      "Tax evasion",
+      "Saudization quota breach"
+    ],
+    "appeal_process": {
+      "initial_appeal_days": 30,
+      "final_appeal_days": 60,
+      "arbitration_available": true,
+      "international_arbitration": false
+    }
+  }
+}

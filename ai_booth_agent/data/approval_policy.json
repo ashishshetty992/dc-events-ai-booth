@@ -1,0 +1,62 @@
+[
+  {
+    "rule_name": "High Budget + Large Booth",
+    "condition": "booth_size > 30 and budget > 150000",
+    "action": "Escalate",
+    "applies_to": "all"
+  },
+  {
+    "rule_name": "IT Auto-Approval",
+    "condition": "industry == 'IT' and budget <= 100000",
+    "action": "Auto-approve",
+    "applies_to": "IT"
+  },
+  {
+    "rule_name": "Logistics Risk Rejection",
+    "condition": "booth_size >= 40 and budget > 180000",
+    "action": "Needs Review",
+    "applies_to": "all"
+  },
+  {
+    "rule_name": "Low Budget Tourism Block",
+    "condition": "industry == 'Travel & Tourism' and budget < 80000",
+    "action": "Reject",
+    "applies_to": "Travel & Tourism"
+  },
+  {
+    "rule_name": "Mid-sized Health Auto",
+    "condition": "industry == 'Healthcare' and 10 <= booth_size <= 25 and budget <= 120000",
+    "action": "Auto-approve",
+    "applies_to": "Healthcare"
+  },
+  {
+    "rule_name": "Large Retail Booth Review",
+    "condition": "industry == 'Retail' and booth_size > 40",
+    "action": "Needs Review",
+    "applies_to": "Retail"
+  },
+  {
+    "rule_name": "Education ROI Optimization",
+    "condition": "industry == 'Education' and budget > 200000 and booth_size < 20",
+    "action": "Reject",
+    "applies_to": "Education"
+  },
+  {
+    "rule_name": "Startup Incentive Rule",
+    "condition": "industry == 'Startup' and budget <= 50000 and booth_size <= 10",
+    "action": "Auto-approve",
+    "applies_to": "Startup"
+  },
+  {
+    "rule_name": "Event Size Exception",
+    "condition": "booth_size > 50 or budget > 250000",
+    "action": "Escalate",
+    "applies_to": "all"
+  },
+  {
+    "rule_name": "Green Energy Priority",
+    "condition": "industry == 'Energy' and budget <= 100000 and booth_size <= 20",
+    "action": "Auto-approve",
+    "applies_to": "Energy"
+  }
+]

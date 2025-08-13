@@ -1,0 +1,62 @@
+[
+  {
+    "event_name": "Smart City Expo 2025",
+    "audience_types": [
+      "Gov buyers",
+      "SMEs",
+      "Academics"
+    ],
+    "vendor_target_audience": "Tech startups",
+    "match_score": 0.94
+  },
+  {
+    "event_name": "HealthTech Expo 2025",
+    "audience_types": [
+      "Gov buyers",
+      "Tech startups",
+      "SMEs"
+    ],
+    "vendor_target_audience": "C-level",
+    "match_score": 0.49
+  },
+  {
+    "event_name": "RetailNow Expo 2025",
+    "audience_types": [
+      "Academics",
+      "Gov buyers",
+      "SMEs"
+    ],
+    "vendor_target_audience": "Gov buyers",
+    "match_score": 0.77
+  },
+  {
+    "event_name": "EduFuture Expo 2025",
+    "audience_types": [
+      "Gov buyers",
+      "SMEs",
+      "C-level"
+    ],
+    "vendor_target_audience": "C-level",
+    "match_score": 0.92
+  },
+  {
+    "event_name": "FinGrowth Expo 2025",
+    "audience_types": [
+      "C-level",
+      "SMEs",
+      "Tech startups"
+    ],
+    "vendor_target_audience": "SMEs",
+    "match_score": 0.42
+  },
+  {
+    "event_name": "AutoWorld Expo 2025",
+    "audience_types": [
+      "Gov buyers",
+      "Academics",
+      "SMEs"
+    ],
+    "vendor_target_audience": "Academics",
+    "match_score": 0.57
+  }
+]
