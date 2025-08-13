@@ -2,11 +2,25 @@ from sqlalchemy import create_engine, Column, Integer, String, Text, DateTime, E
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, declarative_base
 import datetime
+import os
 
-DATABASE_URL = "mysql+pymysql://root:password@127.0.0.1:3306/ai_booth_agent"
+# Use Railway PostgreSQL database or local SQLite fallback
+DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./booth_agent.db")
 
-engine = create_engine(DATABASE_URL, echo=False, pool_pre_ping=True)
-SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+# For local development with MySQL (if needed)
+if "127.0.0.1" in DATABASE_URL or "localhost" in DATABASE_URL:
+    DATABASE_URL = "sqlite:///./booth_agent.db"
+
+try:
+    engine = create_engine(DATABASE_URL, echo=False, pool_pre_ping=True)
+    SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+    DATABASE_CONNECTED = True
+except Exception as e:
+    print(f"Database connection failed: {e}")
+    print("Running without database - some features will be limited")
+    engine = None
+    SessionLocal = None
+    DATABASE_CONNECTED = False
 
 Base = declarative_base()
 
@@ -50,4 +64,11 @@ class ApprovalDecision(Base):
     updated_at = Column(DateTime, default=datetime.datetime.utcnow, onupdate=datetime.datetime.utcnow)
 
 def init_db():
-    Base.metadata.create_all(bind=engine)
+    if DATABASE_CONNECTED and engine:
+        try:
+            Base.metadata.create_all(bind=engine)
+            print("Database tables created successfully")
+        except Exception as e:
+            print(f"Failed to create database tables: {e}")
+    else:
+        print("Skipping database initialization - no database connection")
