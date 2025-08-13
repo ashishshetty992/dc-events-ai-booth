@@ -3,10 +3,24 @@
  * Handles dynamic API endpoint resolution for development and production
  */
 
-// Determine the API base URL based on environment
-const API_BASE_URL = import.meta.env.PROD 
-  ? 'https://dc-events-ai-booth-production.up.railway.app'  // Production: Railway backend
-  : 'http://localhost:8000';         // Development: use localhost
+// Environment-aware API base URL
+const getApiBaseUrl = (): string => {
+  // Check for Railway environment variable
+  if (import.meta.env.VITE_API_BASE_URL) {
+    return import.meta.env.VITE_API_BASE_URL;
+  }
+  
+  // Environment-based detection
+  if (import.meta.env.PROD) {
+    // Try Railway internal networking first, then fallback
+    return import.meta.env.VITE_RAILWAY_BACKEND_URL || 
+           'https://gentle-numbers-happen.loca.lt';
+  } else {
+    return 'http://localhost:8000';  // Development
+  }
+};
+
+const API_BASE_URL = getApiBaseUrl();
 
 export const API_ENDPOINTS = {
   // Core endpoints
@@ -49,7 +63,7 @@ export const getApiUrl = (endpoint: string): string => `${API_BASE_URL}${endpoin
  */
 export const getWebSocketUrl = (): string => {
   const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
-  const host = import.meta.env.PROD ? 'dc-events-ai-booth-production.up.railway.app' : 'localhost:8000';
+  const host = import.meta.env.PROD ? 'gentle-numbers-happen.loca.lt' : 'localhost:8000';
   return `${protocol}//${host}/ws`;
 };
 

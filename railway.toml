@@ -1,0 +1,27 @@
+[build]
+builder = "dockerfile"
+
+[deploy]
+healthcheckPath = "/health"
+healthcheckTimeout = 30
+restartPolicyType = "on_failure"
+restartPolicyMaxRetries = 3
+
+[[services]]
+name = "backend"
+source = "./ai_booth_agent"
+
+[services.healthcheck]
+path = "/health"
+timeout = 30
+
+[services.variables]
+PYTHONPATH = "/app"
+NODE_ENV = "production"
+
+[[services]]
+name = "frontend" 
+source = "./booth-approval-ai-hub"
+
+[services.variables]
+NODE_ENV = "production"
