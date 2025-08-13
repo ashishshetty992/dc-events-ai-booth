@@ -5,7 +5,7 @@
 
 // Determine the API base URL based on environment
 const API_BASE_URL = import.meta.env.PROD 
-  ? window.location.origin + '/api'  // Production: use current domain + /api
+  ? 'https://dc-events-ai-booth-production.up.railway.app'  // Production: Railway backend
   : 'http://localhost:8000';         // Development: use localhost
 
 export const API_ENDPOINTS = {
@@ -49,7 +49,7 @@ export const getApiUrl = (endpoint: string): string => `${API_BASE_URL}${endpoin
  */
 export const getWebSocketUrl = (): string => {
   const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
-  const host = import.meta.env.PROD ? window.location.host : 'localhost:8000';
+  const host = import.meta.env.PROD ? 'dc-events-ai-booth-production.up.railway.app' : 'localhost:8000';
   return `${protocol}//${host}/ws`;
 };
 
