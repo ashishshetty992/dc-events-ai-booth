@@ -9,7 +9,7 @@
       }
     },
     {
-      "src": "api/*.py",
+      "src": "api/index.py",
       "use": "@vercel/python"
     }
   ],
@@ -23,11 +23,6 @@
       "dest": "/booth-approval-ai-hub/dist/$1"
     }
   ],
-  "functions": {
-    "api/*.py": {
-      "runtime": "python3.9"
-    }
-  },
   "buildCommand": "cd booth-approval-ai-hub && npm run build",
   "installCommand": "cd booth-approval-ai-hub && npm install",
   "outputDirectory": "booth-approval-ai-hub/dist"
