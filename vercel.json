@@ -5,7 +5,7 @@
       "src": "booth-approval-ai-hub/package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "booth-approval-ai-hub/dist"
+        "distDir": "dist"
       }
     },
     {
