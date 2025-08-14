@@ -1,0 +1,7 @@
+tunnel: 8e302f66-0181-41a5-83f1-d45ab7108369
+credentials-file: /Users/shipyaari/.cloudflared/8e302f66-0181-41a5-83f1-d45ab7108369.json
+
+ingress:
+  - hostname: api.codemonk.com
+    service: http://localhost:8000
+  - service: http_status:404

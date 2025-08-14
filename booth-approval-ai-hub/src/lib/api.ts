@@ -3,24 +3,10 @@
  * Handles dynamic API endpoint resolution for development and production
  */
 
-// Environment-aware API base URL
-const getApiBaseUrl = (): string => {
-  // Check for Railway environment variable
-  if (import.meta.env.VITE_API_BASE_URL) {
-    return import.meta.env.VITE_API_BASE_URL;
-  }
-  
-  // Environment-based detection
-  if (import.meta.env.PROD) {
-    // Try Railway internal networking first, then fallback
-    return import.meta.env.VITE_RAILWAY_BACKEND_URL || 
-           'https://gentle-numbers-happen.loca.lt';
-  } else {
-    return 'http://localhost:8000';  // Development
-  }
-};
-
-const API_BASE_URL = getApiBaseUrl();
+// Determine the API base URL based on environment
+const API_BASE_URL = import.meta.env.PROD 
+  ? 'https://gentle-numbers-happen.loca.lt'  // Production: LocalTunnel Backend
+  : 'http://localhost:8000';                 // Development: use localhost
 
 export const API_ENDPOINTS = {
   // Core endpoints
