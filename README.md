@@ -8,8 +8,7 @@ A comprehensive AI-powered booth approval system with React frontend and FastAPI
 dc-events/
 ├── booth-approval-ai-hub/    # React Frontend (Vite + TypeScript)
 ├── ai_booth_agent/          # FastAPI Backend (Python)
-├── api/                     # Vercel API functions
-├── vercel.json             # Vercel deployment config
+
 ├── requirements.txt        # Python dependencies
 └── README.md
 ```
@@ -61,19 +60,22 @@ pip install -r requirements.txt
 python start_server.py
 ```
 
-## 🚀 Deployment
+## 🚀 Development
 
-This project is configured for deployment on Vercel with both frontend and backend:
+Run the project locally:
 
-1. **Push to GitHub**
-2. **Connect to Vercel**
-3. **Deploy automatically**
+1. **Start Backend**:
+   ```bash
+   cd ai_booth_agent
+   python start_server.py
+   ```
 
-The `vercel.json` configuration handles:
-- Frontend build (Vite)
-- Backend serverless functions (Python)
-- API routing
-- Static file serving
+2. **Start Frontend**:
+   ```bash
+   cd booth-approval-ai-hub
+   npm install
+   npm run dev
+   ```
 
 ## 📊 API Endpoints
 
@@ -100,16 +102,15 @@ The `vercel.json` configuration handles:
 - Backend: `http://localhost:8000`
 
 ### Production
-- Frontend: Served via Vercel
-- Backend: Serverless functions on Vercel
-- API: `/api/*` routes
+- Backend: FastAPI server with uvicorn
+- Frontend: Static build served by web server
+- Database: SQLite with data persistence
 
 ## 📁 Key Files
 
-- `vercel.json` - Deployment configuration
-- `api/index.py` - Serverless function entry point
+- `ai_booth_agent/main.py` - FastAPI backend application
 - `booth-approval-ai-hub/src/lib/api.ts` - API configuration
-- `ai_booth_agent/main.py` - FastAPI application
+- `ai_booth_agent/start_server.py` - Server startup script
 
 ## 🤝 Contributing
 

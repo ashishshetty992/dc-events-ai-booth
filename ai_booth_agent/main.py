@@ -42,10 +42,7 @@ class Config:
         "http://localhost:5173",
         "http://127.0.0.1:8080",
         "http://127.0.0.1:8081",
-        "http://127.0.0.1:5173",
-        # Add Vercel deployment patterns
-        "https://*.vercel.app",
-        "https://vercel.app"
+        "http://127.0.0.1:5173"
     ]
     DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
     SYSTEM_PROMPT = (
@@ -67,10 +64,10 @@ init_db()
 # Add CORS middleware with environment-aware configuration
 cors_origins = Config.CORS_ORIGINS.copy()
 
-# In production, allow all origins (Vercel deployments)
+# In production, allow all origins
 # In development, use specific origins
 import os
-if os.getenv('VERCEL') or os.getenv('NODE_ENV') == 'production':
+if os.getenv('NODE_ENV') == 'production':
     cors_origins = ["*"]  # Allow all origins in production
 
 app.add_middleware(
